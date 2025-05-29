@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import { FilterBar } from "../components/FilterBar";
 import { FullWidthHeader } from "../components/FullWidthHeader";
 import { config } from "../config";
-import blogPost from "@/app/mock/blogPosts.json";
+import { posts } from "@/app/mock/blogPosts";
 import type { GetPostsResult } from "@wisp-cms/client";
 
 const { title, description } = config;
@@ -34,7 +34,7 @@ export default async function Page(props: {
   //   page,
   // });
 
-  const result = blogPost as unknown as GetPostsResult;
+  const result = posts;
 
   return (
     <>

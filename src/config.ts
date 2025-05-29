@@ -7,30 +7,33 @@ interface Category {
 
 const categories: Category[] = [
   {
-    label: "Foundation Model",
-    tag: "foundation-model",
-    description: "Insights on powerful AI models at the foundation of tech.",
+    label: "Engenharia de Dados",
+    tag: "engenharia-de-dados",
+    description: "Tecnologias e práticas modernas na engenharia de dados e IA.",
   },
   {
-    label: "Engineering",
-    tag: "engineering",
-    description: "Innovative engineering driving AI advancements.",
-  },
-  {
-    label: "Jobs",
-    tag: "jobs",
+    label: "Carreiras e Vagas",
+    tag: "carreiras-e-vagas",
     description:
-      "Explore AI job trends and opportunities shaping a brighter future.",
+      "Tendências de mercado e oportunidades de trabalho em dados e IA.",
   },
   {
-    label: "Startups",
-    tag: "startup",
-    description: "Spotlight on innovative AI startups transforming industries.",
+    label: "Ética e IA Responsável",
+    tag: "etica-e-ia",
+    description:
+      "Discussões sobre o uso ético e responsável da inteligência artificial.",
   },
   {
-    label: "Ethics",
-    tag: "ethics",
-    description: "Promoting responsible AI for positive impact.",
+    label: "Tutoriais e Guias",
+    tag: "tutoriais-e-guias",
+    description:
+      "Conteúdo educativo sobre ciência de dados, IA e ferramentas práticas.",
+  },
+  {
+    label: "Tendências e Inovação",
+    tag: "tendencias-inovacao",
+    description:
+      "Novidades do mercado de dados, IA, automação e transformação digital.",
   },
 ];
 
