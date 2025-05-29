@@ -1,12 +1,12 @@
 export const post = {
   id: "clvm6i42w0003c7p8uanleynx",
-  title: "The Healing Power of Travel: Finding Myself Again",
+  title: "O Poder Curativo das Viagens: Redescobrindo a Mim Mesmo",
   image:
     "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/b3524cb8-3965-47d4-ad1c-e8e4b50a41ab.png/public",
-  content: `<img src=\"https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/e0117e2b-bdfe-411d-809f-a06ebd9aff09.png/public\"><p>As I wandered through the bustling night market in Kuala Lumpur, I was immediately enveloped by a kaleidoscope of sights, sounds, and smells. Vendors hawked sizzling satay skewers, woks crackling with fragrant char koay teow, and colorful stalls overflowing with fresh tropical fruits. The air was thick with the tantalizing aroma of spices and charcoal smoke.</p><p>I could have easily just gawked at the spectacle and moved on. But the true essence of travel, I've learned, lies in connecting with locals and immersing yourself in their way of life. So I struck up a conversation with a friendly auntie grilling skewers of meat over a scorching charcoal fire.</p><img src=\"https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/c24f2238-4c6c-43a1-a73e-983383e319fe.png/public\"><p>Soon, I found myself being ushered behind her stall to the makeshift kitchen area. She proudly showed me how to marinate the chicken and thread the skewers, sharing generations-old family recipes. As we worked side-by-side, she told me about growing up as one of twelve siblings, her dreams of opening her own restaurant, and how proud she was to be carrying on her grandmother's culinary legacy.</p><p>Before I knew it, I was surrounded by her entire family - cousins, aunties, and grandchildren all chiming in with their own stories and cooking tips between peals of laughter. They insisted I try everything from tangy acar vegetables to pillowy roti canai dripping with rich curry. I left that night with a full heart and an even fuller belly, having experienced Malaysian hospitality in the most authentic way possible.</p><p>Connecting with locals has been the thread weaving through all my most enriching travel experiences. Like the elderly Thai Buddhist monk who invited me into his monastery for an intimate lesson in mindfulness and meditation. Or the Quechua family I stayed with in Peru who taught me ancient weaving traditions passed down through generations.</p><p>These are the interactions that stick with you forever, peeling back the surface-level tourist experiences to reveal the heart and soul of a culture. They provide a deeper understanding of the people and their way of life. An appreciation for the traditions, values, and simple joys that may be different from your own.</p><p>Of course, it takes effort to step outside your comfort zone and form these bonds as a traveler. A willingness to have awkward conversations across language barriers, be vulnerable, and open your mind to new perspectives. But the rewards are immeasurable.</p><p>In a world that is becoming increasingly globalized, it's all too easy to make assumptions about cultures different from our own. But taking the time to connect one-on-one dissolves stereotypes and fosters cross-cultural understanding and empathy. You realize that despite external differences, we all share the same hopes, dreams, and universal human experiences like love, loss, and laughter.</p><p>So don't just observe the world through a camera lens. Seek out opportunities to connect with locals, immerse yourself in their customs, and embrace the awkwardness. For that is where you'll experience the true magic of travel - a window into the kaleidoscope of human experiences that make this world so beautifully diverse and rich.</p>`, // conteúdo original mantido
+  content: `<img src=\"https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/e0117e2b-bdfe-411d-809f-a06ebd9aff09.png/public\"><p>Enquanto eu caminhava pelo movimentado mercado noturno de Kuala Lumpur, fui imediatamente envolvido por um caleidoscópio de cores, sons e aromas. Vendedores anunciavam espetinhos de satay fumegantes, woks chiando com o cheiro do char koay teow e barracas coloridas cheias de frutas tropicais frescas. O ar estava denso com o aroma tentador de especiarias e fumaça de carvão.</p><p>Eu poderia facilmente ter apenas observado o espetáculo e seguido em frente. Mas a verdadeira essência de viajar, aprendi, está em se conectar com os locais e se imergir no estilo de vida deles. Então puxei conversa com uma simpática senhora que grelhava espetinhos sobre o fogo de carvão escaldante.</p><img src=\"https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/c24f2238-4c6c-43a1-a73e-983383e319fe.png/public\"><p>Logo, me vi sendo levado para trás da barraca dela, até uma cozinha improvisada. Ela me mostrou orgulhosamente como marinar o frango e montar os espetinhos, compartilhando receitas de família passadas por gerações. Enquanto trabalhávamos lado a lado, ela contou sobre crescer como uma de doze irmãos, seus sonhos de abrir um restaurante e o orgulho de manter viva a herança culinária da avó.</p><p>Antes que eu percebesse, estava cercado por toda a família dela — primos, tias e netos, todos compartilhando histórias e dicas de cozinha entre gargalhadas. Eles insistiram para que eu provasse de tudo: desde legumes em conserva picantes (acar) até o fofo roti canai mergulhado em curry rico. Saí naquela noite de coração cheio e barriga mais ainda, tendo vivido a hospitalidade malaia da forma mais autêntica possível.</p><p>Conectar-se com os locais tem sido o fio condutor de todas as minhas experiências de viagem mais enriquecedoras. Como o monge budista tailandês idoso que me convidou para seu mosteiro para uma aula íntima de meditação. Ou a família quéchua no Peru com quem fiquei hospedado e que me ensinou tradições de tecelagem antigas.</p><p>Essas são as interações que ficam para sempre, revelando o coração e a alma de uma cultura. Elas proporcionam uma compreensão mais profunda das pessoas e seus modos de vida. Um apreço pelas tradições, valores e alegrias simples que podem ser diferentes dos seus próprios.</p><p>Claro, é preciso esforço para sair da zona de conforto e criar esses laços como viajante. Estar disposto a ter conversas constrangedoras apesar da barreira do idioma, ser vulnerável e abrir a mente para novas perspectivas. Mas as recompensas são incalculáveis.</p><p>Num mundo cada vez mais globalizado, é fácil fazer suposições sobre culturas diferentes da nossa. Mas tirar tempo para se conectar pessoalmente dissolve estereótipos e promove entendimento e empatia intercultural. Você percebe que, apesar das diferenças externas, todos compartilhamos os mesmos sonhos, esperanças e experiências humanas universais como amor, perda e risos.</p><p>Então não apenas observe o mundo pela lente da câmera. Busque oportunidades de se conectar com os locais, mergulhe nos costumes deles e abrace os momentos desconfortáveis. Pois é aí que você encontrará a verdadeira mágica de viajar – uma janela para o caleidoscópio de experiências humanas que tornam este mundo tão ricamente diverso.</p>`,
   description:
-    "Heartbroken, I traveled to Bhutan seeking healing. Amid ancient Buddhist traditions, majestic peaks, and remote villages, I shed layers of pain. Bhutan's spiritual energy and simplicity reignited my essence. Travel's power immersed me in new beliefs, allowing me to rediscover my true self.",
-  slug: "the-healing-power-of-travel-finding-myself-again",
+    "De coração partido, viajei ao Butão em busca de cura. Em meio a antigas tradições budistas, picos majestosos e vilarejos remotos, me libertei da dor. A energia espiritual e a simplicidade do Butão reacenderam minha essência. O poder das viagens me mergulhou em novas crenças, permitindo que eu redescobrisse meu verdadeiro eu.",
+  slug: "o-poder-curativo-das-viagens-redescobrindo-a-mim-mesmo",
   authorId: "cluqywzs7000021a9m3aueeiq",
   teamId: "clvlugru90000o4g8ahxp069s",
   createdAt: new Date("2024-04-30T09:21:17.096Z"),
@@ -16,9 +16,9 @@ export const post = {
     confetti: true,
   },
   author: {
-    name: "Raymond Yeh",
+    name: "Vinicius Neves",
     image:
-      "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+      "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
   },
   tags: [
     {
@@ -35,12 +35,12 @@ export const post = {
 export const relatedNews = [
   {
     id: "clvm0lrw60015nrohy4ix2snl",
-    title: "Lessons from the Road: How Travel Changed My Perspective",
+    title: "Lições da Estrada: Como Viajar Mudou Minha Perspectiva",
     description:
-      "Travel has been the greatest teacher, providing invaluable lessons that have profoundly shifted my perspective. From learning to embrace discomfort as a catalyst for growth, to living in the present moment with mindfulness, to keeping an open mind and humility towards different cultures - the road has shaped me into a more resilient, compassionate, and curious human being. These hard-won lessons have been a journey of self-discovery, pushing me beyond my limits and allowing me to evolve in ways my former life could never have offered. They are lessons I'll carry with me as my compass for continued growth.",
+      "Viajar foi meu maior professor, trazendo lições valiosas que mudaram profundamente minha visão de mundo. Desde aprender a lidar com o desconforto como catalisador de crescimento, até viver o presente com atenção plena e manter uma mente aberta diante de outras culturas — a estrada me tornou uma pessoa mais resiliente, compassiva e curiosa. Essas lições, conquistadas com esforço, foram uma jornada de autodescoberta e crescimento que minha antiga vida jamais poderia proporcionar.",
     image:
       "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/705bc6c4-35ac-4160-981e-5fe7c133a0e1.png/public",
-    slug: "lessons-from-the-road-how-travel-changed-my-perspective",
+    slug: "licoes-da-estrada-como-viajar-mudou-minha-perspectiva",
     authorId: "cluqywzs7000021a9m3aueeiq",
     teamId: "clvlugru90000o4g8ahxp069s",
     createdAt: new Date("2024-04-30T06:36:10.231Z"),
@@ -50,12 +50,12 @@ export const relatedNews = [
   },
   {
     id: "clvm04tgm000dnrohmrx32cbs",
-    title: "Trekking the Himalayas: Pushing My Limits in Nepal",
+    title: "Trekking nos Himalaias: Superando Meus Limites no Nepal",
     description:
-      "Trekking through the awe-inspiring Himalayas in Nepal was an experience that pushed me to my absolute limits, both physically and mentally. As I navigated treacherous high-altitude passes, glaciers, and sub-freezing temperatures, I was forced to confront my fears, self-doubts, and vulnerabilities head-on. But in doing so, I discovered reserves of strength and resilience I never knew I possessed. More than just a grueling physical journey, this trek was a transformative spiritual and emotional awakening. It reminded me that growth often lies on the other side of our greatest challenges, and that by embracing the unknown, we open ourselves up to experiences that can change us in profound and lasting ways.",
+      "Trekking pelos inspiradores Himalaias no Nepal foi uma experiência que me levou ao limite físico e mental. Ao enfrentar trilhas perigosas, altitudes extremas e temperaturas congelantes, encarei meus medos e vulnerabilidades. No processo, descobri forças interiores que nem sabia que existiam. Mais que uma jornada física, foi um despertar espiritual e emocional. Aprendi que o crescimento está além dos nossos maiores desafios — e que abraçar o desconhecido pode transformar profundamente quem somos.",
     image:
       "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/3307f9f2-0363-487c-9e63-f2444697c8ae.png/public",
-    slug: "trekking-the-himalayas-pushing-my-limits-in-nepal",
+    slug: "trekking-nos-himalaias-superando-meus-limites-no-nepal",
     authorId: "cluqywzs7000021a9m3aueeiq",
     teamId: "clvlugru90000o4g8ahxp069s",
     createdAt: new Date("2024-04-30T06:22:59.111Z"),
@@ -65,12 +65,12 @@ export const relatedNews = [
   },
   {
     id: "clvm0eyjk000snrohq8pg4msw",
-    title: "Dealing with Loneliness: The Realities of Solo Travel",
+    title: "Lidando com a Solidão: As Realidades de Viajar Sozinho",
     description:
-      "Solo travel can bring waves of crippling loneliness, especially during quiet moments away from the exhilaration of new adventures. In those times, doubts and displacement can creep in. However, I've learned that loneliness is simply part of the solo experience - the yin to the yang of freedom. By riding it out with self-compassion, nurturing connections back home, embracing human connections on the road, and using solitude for self-reflection, the loneliness becomes a catalyst for growth. It's a small price for the incredible rewards this nomadic life offers.",
+      "Viajar sozinho pode trazer ondas de solidão intensa, especialmente nos momentos calmos longe das novidades. Nesses momentos, dúvidas e sensação de deslocamento surgem. Mas aprendi que a solidão faz parte dessa jornada — o lado yin da liberdade. Com compaixão, conexões à distância e reflexões em silêncio, ela se torna catalisadora de crescimento. Um pequeno preço a pagar pelas recompensas desse estilo de vida nômade.",
     image:
       "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/5e783ab5-0344-4f1c-b420-38274c233202.png/public",
-    slug: "dealing-with-loneliness-the-realities-of-solo-travel",
+    slug: "lidando-com-a-solidao-as-realidades-de-viajar-sozinho",
     authorId: "cluqywzs7000021a9m3aueeiq",
     teamId: "clvlugru90000o4g8ahxp069s",
     createdAt: new Date("2024-04-30T06:30:52.256Z"),
@@ -80,12 +80,12 @@ export const relatedNews = [
   },
   {
     id: "clvlzei39000m9mivh01ak7rm",
-    title: "Overcoming Fear: My First Solo Trip Abroad",
+    title: "Vencendo o Medo: Minha Primeira Viagem Sozinha ao Exterior",
     description:
-      "Despite being terrified at the prospect of traveling alone as a solo female, I faced my fears and booked a life-changing solo trip to Bali. This post recounts how I overcame crippling anxiety, learned to embrace the unknown, and emerged from my first solo adventure more confident, self-reliant, and brave than ever before.",
+      "Apesar do medo paralisante de viajar sozinha, enfrentei meus receios e embarquei numa viagem transformadora para Bali. Este relato mostra como superei a ansiedade, abracei o desconhecido e saí da minha primeira aventura mais confiante, autônoma e corajosa do que nunca.",
     image:
       "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/4fc1f9c3-d987-4bac-ba63-61f52cbf3288.png/public",
-    slug: "overcoming-fear-my-first-solo-trip-abroad",
+    slug: "vencendo-o-medo-minha-primeira-viagem-sozinha-ao-exterior",
     authorId: "cluqywzs7000021a9m3aueeiq",
     teamId: "clvlugru90000o4g8ahxp069s",
     createdAt: new Date("2024-04-30T06:02:31.318Z"),

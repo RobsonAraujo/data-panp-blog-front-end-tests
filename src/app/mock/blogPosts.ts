@@ -2,12 +2,12 @@ export const posts = {
   posts: [
     {
       id: "clvm6i42w0003c7p8uanleynx",
-      title: "The Healing Power of Travel: Finding Myself Again",
+      title: "O Poder Curativo das Viagens: Redescobrindo a Mim Mesmo",
       image:
         "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/b3524cb8-3965-47d4-ad1c-e8e4b50a41ab.png/public",
       description:
-        "Heartbroken, I traveled to Bhutan seeking healing. Amid ancient Buddhist traditions, majestic peaks, and remote villages, I shed layers of pain. Bhutan's spiritual energy and simplicity reignited my essence. Travel's power immersed me in new beliefs, allowing me to rediscover my true self.",
-      slug: "the-healing-power-of-travel-finding-myself-again",
+        "De coração partido, viajei ao Butão em busca de cura. Em meio às antigas tradições budistas, picos majestosos e vilarejos remotos, fui me despindo das camadas de dor. A energia espiritual e a simplicidade do Butão reacenderam minha essência. O poder da viagem me imergiu em novas crenças, permitindo que eu redescobrisse meu verdadeiro eu.",
+      slug: "o-poder-curativo-das-viagens-redescobrindo-a-mim-mesmo",
       authorId: "cluqywzs7000021a9m3aueeiq",
       teamId: "clvlugru90000o4g8ahxp069s",
       createdAt: new Date("2024-04-30T06:49:29.118Z"),
@@ -18,19 +18,19 @@ export const posts = {
         { id: "clvm6hxsj0001c7p8jjfs9cw1", name: "bhutan" },
       ],
       author: {
-        name: "Raymond Yeh",
+        name: "Vinicius Neves",
         image:
-          "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+          "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
       },
     },
     {
       id: "clvm12wbi001lnrohtvnnpw23",
-      title: "Connecting with Locals: The True Essence of Travel",
+      title: "Conectando com os Locais: A Verdadeira Essência de Viajar",
       image:
         "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/c24f2238-4c6c-43a1-a73e-983383e319fe.png/public",
       description:
-        "At a night market in Kuala Lumpur, I was invited behind a satay stall to learn a vendor's generations-old family recipes. Connecting with locals like this provides the deepest cultural immersion - a window into their traditions, values and human experiences that dissolve stereotypes and foster empathy.",
-      slug: "connecting-with-locals-the-true-essence-of-travel",
+        "Em um mercado noturno em Kuala Lumpur, fui convidado para trás de uma barraca de satay para aprender receitas de família passadas por gerações. Conectar-se com os locais dessa forma proporciona a imersão cultural mais profunda – uma janela para suas tradições, valores e experiências humanas que dissolvem estereótipos e promovem empatia.",
+      slug: "conectando-com-os-locais-a-verdadeira-essencia-de-viajar",
       authorId: "cluqywzs7000021a9m3aueeiq",
       teamId: "clvlugru90000o4g8ahxp069s",
       createdAt: new Date("2024-04-30T06:49:29.118Z"),
@@ -42,19 +42,19 @@ export const posts = {
         { id: "clvm107u1000111s4y7l5x01i", name: "malaysia" },
       ],
       author: {
-        name: "Raymond Yeh",
+        name: "Vinicius Neves",
         image:
-          "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+          "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
       },
     },
     {
       id: "clvm10g3z000311s4efdcptmq",
-      title: "Sustainable Travel: Reducing Your Footprint on the Road",
+      title: "Viagem Sustentável: Reduzindo Seu Impacto na Estrada",
       image:
         "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/7f6f52d6-cdd5-4b8d-9f7e-1be06e031028.png/public",
       description:
-        "Trekking through Malaysia's ancient rainforests, I witnessed tourism's impact - illegal logging, plastic pollution. It inspired me to travel more consciously by staying at eco-lodges, using public transport, and seeking ethical tour companies benefiting local communities. We must reduce our footprints to preserve the world's beauty.",
-      slug: "sustainable-travel-reducing-your-footprint-on-the-road",
+        "Explorando as antigas florestas tropicais da Malásia, testemunhei o impacto do turismo – desmatamento ilegal, poluição plástica. Isso me inspirou a viajar de forma mais consciente, hospedando-me em ecolodges, usando transporte público e escolhendo agências éticas que beneficiam as comunidades locais. Precisamos reduzir nossa pegada para preservar a beleza do mundo.",
+      slug: "viagem-sustentavel-reduzindo-seu-impacto-na-estrada",
       authorId: "cluqywzs7000021a9m3aueeiq",
       teamId: "clvlugru90000o4g8ahxp069s",
       createdAt: new Date("2024-04-30T06:49:29.118Z"),
@@ -65,19 +65,19 @@ export const posts = {
         { id: "clvm107u1000111s4y7l5x01i", name: "malaysia" },
       ],
       author: {
-        name: "Raymond Yeh",
+        name: "Vinicius Neves",
         image:
-          "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+          "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
       },
     },
     {
       id: "clvm0w1x5001gnroh68ccuy3m",
-      title: "The Magic of Spontaneity: Unplanned Adventures",
+      title: "A Magia da Espontaneidade: Aventuras Não Planejadas",
       image:
         "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/db4ef086-b017-43f9-b1b8-09f43fd934e3.png/public",
       description:
-        'Embracing spontaneity leads to the most cherished travel memories. Wandering without an agenda opens up unexpected adventures - stumbling upon hidden waterfalls, ending up in vibrant towns. Saying "yes" to the unplanned is true magic.',
-      slug: "the-magic-of-spontaneity-unplanned-adventures",
+        'Abraçar a espontaneidade leva às memórias de viagem mais queridas. Andar sem um plano abre espaço para aventuras inesperadas – como encontrar cachoeiras escondidas ou parar em cidades vibrantes. Dizer "sim" ao que não foi planejado é uma verdadeira mágica.',
+      slug: "a-magia-da-espontaneidade-aventuras-nao-planejadas",
       authorId: "cluqywzs7000021a9m3aueeiq",
       teamId: "clvlugru90000o4g8ahxp069s",
       createdAt: new Date("2024-04-30T06:49:29.118Z"),
@@ -89,20 +89,20 @@ export const posts = {
         { id: "clvm0vtl6001enrohni16i02i", name: "waterfall" },
       ],
       author: {
-        name: "Raymond Yeh",
+        name: "Vinicius Neves",
         image:
-          "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+          "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
       },
     },
     {
       id: "clvm0q8vk0019nroh2icvpn5d",
       title:
-        "The Art of Slow Travel: Savoring Every Moment in Chiang Rai, Thailand",
+        "A Arte de Viajar Devagar: Saboreando Cada Momento em Chiang Rai, Tailândia",
       image:
         "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/4122574a-d465-431f-9214-f6615307d41d.png/public",
       description:
-        "After the whirlwind of Hat Yai, I embraced the art of slow travel in the laidback province of Chiang Rai. I savored every moment - lingering over morning coffees, wandering ancient temples unhurried, and connecting with locals over simple pleasures like weaving traditions and lively markets. By slowing down and being truly present, I peeled back the surface-level experiences to find authentic Thai culture in the quiet, unassuming moments often overlooked. It was a lesson in appreciating the richness that can be found by traveling mindfully and savoring each experience fully.",
-      slug: "the-art-of-slow-travel-savoring-every-moment-in-chiang-rai-thailand",
+        "Depois da correria de Hat Yai, abracei a arte de viajar devagar na tranquila província de Chiang Rai. Aproveitei cada momento – tomando café da manhã com calma, explorando templos antigos sem pressa e me conectando com os moradores locais em prazeres simples, como tradições de tecelagem e mercados animados. Ao desacelerar e estar verdadeiramente presente, ultrapassei as experiências superficiais e encontrei a cultura tailandesa autêntica nos momentos silenciosos e singelos. Foi uma lição sobre valorizar a riqueza que pode ser encontrada ao viajar com consciência e aproveitar cada experiência por completo.",
+      slug: "a-arte-de-viajar-devagar-saboreando-cada-momento-em-chiang-rai-tailandia",
       authorId: "cluqywzs7000021a9m3aueeiq",
       teamId: "clvlugru90000o4g8ahxp069s",
       createdAt: new Date("2024-04-30T06:49:29.118Z"),
@@ -114,19 +114,19 @@ export const posts = {
         { id: "clvm0imtb000xnrohb62q7u86", name: "thailand" },
       ],
       author: {
-        name: "Raymond Yeh",
+        name: "Vinicius Neves",
         image:
-          "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+          "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
       },
     },
     {
       id: "clvm0lrw60015nrohy4ix2snl",
-      title: "Lessons from the Road: How Travel Changed My Perspective",
+      title: "Lições da Estrada: Como Viajar Mudou Minha Perspectiva",
       image:
         "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/705bc6c4-35ac-4160-981e-5fe7c133a0e1.png/public",
       description:
-        "Travel has been the greatest teacher, providing invaluable lessons that have profoundly shifted my perspective. From learning to embrace discomfort as a catalyst for growth, to living in the present moment with mindfulness, to keeping an open mind and humility towards different cultures - the road has shaped me into a more resilient, compassionate, and curious human being. These hard-won lessons have been a journey of self-discovery, pushing me beyond my limits and allowing me to evolve in ways my former life could never have offered. They are lessons I'll carry with me as my compass for continued growth.",
-      slug: "lessons-from-the-road-how-travel-changed-my-perspective",
+        "Viajar foi o maior professor da minha vida, trazendo lições valiosas que mudaram profundamente minha perspectiva. Desde aprender a abraçar o desconforto como catalisador de crescimento, até viver o momento presente com atenção plena, mantendo a mente aberta e humildade diante de outras culturas – a estrada me transformou em uma pessoa mais resiliente, compassiva e curiosa. Essas lições, conquistadas com esforço, foram uma jornada de autodescoberta, ultrapassando meus próprios limites e me permitindo evoluir de maneiras que minha vida anterior jamais teria oferecido. São ensinamentos que levarei comigo como bússola para continuar crescendo.",
+      slug: "licoes-da-estrada-como-viajar-mudou-minha-perspectiva",
       authorId: "cluqywzs7000021a9m3aueeiq",
       teamId: "clvlugru90000o4g8ahxp069s",
       createdAt: new Date("2024-04-30T06:49:29.118Z"),
@@ -137,9 +137,9 @@ export const posts = {
         { id: "clvm0efpw000qnrohdvzfo1ep", name: "emotions" },
       ],
       author: {
-        name: "Raymond Yeh",
+        name: "Vinicius Neves",
         image:
-          "https://lh3.googleusercontent.com/a/ACg8ocLy2t_8gkYSmpcOlQtFe9a-G6YP2DAG089A4AymO3tkjTD769Ba=s96-c",
+          "https://media.licdn.com/dms/image/v2/D4D03AQEw5QeU3mtkug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681934126145?e=1753920000&v=beta&t=zmwFT0YS3bv-jzB1ZGv1J7nG_ivouDBdALVAvsSmNfw",
       },
     },
   ],

@@ -56,7 +56,7 @@ export const BlogContent = ({
         ]}
       />
       <div className="container mx-auto mt-8 px-4 max-w-6xl">
-        <div className="flex items-center gap-2">
+        <div className="flex justify-center items-center gap-2">
           <Image
             src={author.image || ""}
             alt={author.name || ""}
@@ -66,10 +66,10 @@ export const BlogContent = ({
           />
           <div className="font-medium">{author.name}</div> |
           <div>
-            Published on {publishedAt ? formatFullDate(publishedAt) : "N/A"}
+            Publicado em {publishedAt ? formatFullDate(publishedAt) : "N/A"}
           </div>
         </div>
-        <div className="flex">
+        <div className="flex justify-center">
           <div className="lg:w-3/4 prose prose-lg max-w-none w-full break-words blog-content">
             <Accordion
               type="single"
@@ -90,12 +90,12 @@ export const BlogContent = ({
               }}
             />
           </div>
-          <div className="w-1/4 hidden lg:block">
+          {/* <div className="w-1/4 hidden lg:block">
             <div className="sticky top-0 mt-4 p-4 max-h-screen overflow-y-auto">
               <div className="text-lg font-semibold">Table of Contents</div>
               <TableOfContents items={tableOfContents} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="my-8 space-x-2">
           {tags.map((tag) => (
@@ -104,7 +104,7 @@ export const BlogContent = ({
             </Link>
           ))}
         </div>
-        <CommentSection slug={slug} />
+        {/* <CommentSection slug={slug} /> */}
         <RelatedPosts posts={relatedPosts} />
       </div>
     </>

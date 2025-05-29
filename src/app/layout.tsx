@@ -3,6 +3,7 @@ import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer/Footer";
 import { Providers } from "./providers";
+import Header from "@/components/header/Header";
 
 const fontSans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${fontSans.variable} antialiased font-sans`}>
         <Providers>
+          <Header />
           {children}
           <Footer />
         </Providers>
