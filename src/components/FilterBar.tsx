@@ -86,7 +86,7 @@ export const FilterBar = ({ className, active }: BlogNavigationBarProps) => {
                 href={
                   category.tag === latest.tag
                     ? `/`
-                    : `/category/${category.tag}`
+                    : `/categoria/${category.tag}`
                 }
                 key={category.tag}
               >

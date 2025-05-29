@@ -57,8 +57,8 @@ export default async function Page(props: {
         description={description}
         breadcrumb={[
           { label: "Home", href: "/" },
-          { label: "Category", href: `/category/` },
-          { label, href: `/category/${tag}` },
+          { label: "Categoria", href: `/categoria/` },
+          { label, href: `/categoria/${tag}` },
         ]}
       />
       <div className="container mx-auto max-w-6xl">
@@ -68,7 +68,7 @@ export default async function Page(props: {
           pagination={result.pagination}
           className="my-16"
           query={searchParams?.query}
-          basePath={`/category/${tag}`}
+          basePath={`/categoria/${tag}`}
         />
       </div>
     </>

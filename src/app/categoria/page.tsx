@@ -27,12 +27,12 @@ export default async function Page() {
         description="Explore os posts do blog por categoria"
         breadcrumb={[
           { label: "Home", href: "/" },
-          { label: "Category", href: `/category/` },
+          { label: "Categoria", href: `/categoria/` },
         ]}
       />
       <div className="container mx-auto text-xl px-4 mb-10 max-w-6xl">
         {tags.map((tag) => (
-          <Link key={tag.id} href={`/category/${tag.name}`}>
+          <Link key={tag.id} href={`/categoria/${tag.name}`}>
             <div className="inline-block mr-4 mt-2">#{tag.name}</div>
           </Link>
         ))}
