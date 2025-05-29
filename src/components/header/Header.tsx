@@ -8,8 +8,6 @@ import { Typography } from "@mui/material";
 import Ray from "@/app/icons/Ray";
 import Link from "next/link";
 
-import { usePathname } from "next/navigation";
-
 export default function Header() {
   return (
     <header

@@ -5,12 +5,11 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 export default function Footer() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
-  const isHome = pathname === "/";
+  // const isHome = pathname === "/";
   return (
     <footer
       className={`mt-8  w-full bottom-0 flex items-center justify-between px-[160px] max-md:px-4 border-t border-lightGrey h-[80px] bg-white max-md:flex-col-reverse max-md:justify-evenly`}

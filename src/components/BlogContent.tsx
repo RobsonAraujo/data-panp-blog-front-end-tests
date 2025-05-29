@@ -14,10 +14,10 @@ import { processTableOfContents, TableOfContents } from "./TOC";
 import { ContentWithCustomComponents } from "@wisp-cms/react-custom-component";
 import { FAQ } from "./WispComponents/FAQ";
 import { formatFullDate } from "@/lib/date";
-import { CommentSection } from "./CommentSection";
+// import { CommentSection } from "./CommentSection";
 
 export const BlogContent = ({
-  post: { title, content, author, publishedAt, tags, slug },
+  post: { title, content, author, publishedAt, tags },
   relatedPosts,
 }: {
   post: {

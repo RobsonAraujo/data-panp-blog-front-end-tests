@@ -41,7 +41,7 @@ export default async function Page(props: {
     label: `#${tag}`,
     description: `Blog posts tagged with #${tag}`,
   };
-  const page = searchParams?.page ? parseInt(searchParams.page) : 1;
+  // const page = searchParams?.page ? parseInt(searchParams.page) : 1;
   const result = posts;
   // const result = await wisp.getPosts({
   //   limit: 6,

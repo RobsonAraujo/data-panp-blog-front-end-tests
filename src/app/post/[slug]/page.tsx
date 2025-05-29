@@ -7,13 +7,11 @@ import type { BlogPosting, WithContext } from "schema-dts";
 import { config } from "@/config";
 import { getOgImageUrl } from "@/lib/ogImage";
 import { post, relatedNews } from "@/app/mock/post";
-interface Params {
-  slug: string;
-}
-export async function generateMetadata(props: {
-  params: Promise<Params>;
-}): Promise<Metadata> {
-  const params = await props.params;
+// interface Params {
+//   slug: string;
+// }
+export async function generateMetadata(): Promise<Metadata> {
+  // const params = await props.params;
 
   // const { slug } = params;
 
@@ -35,10 +33,10 @@ export async function generateMetadata(props: {
   };
 }
 
-export default async function BlogPost(props: { params: Promise<Params> }) {
-  const params = await props.params;
+export default async function BlogPost() {
+  // const params = await props.params;
 
-  const { slug } = params;
+  // const { slug } = params;
 
   // const [result, related] = await Promise.all([
   //   wisp.getPost(slug),
