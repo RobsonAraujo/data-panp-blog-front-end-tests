@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/footer/Footer";
 import { Providers } from "./providers";
 
 const fontSans = IBM_Plex_Sans({
