@@ -1,62 +1,58 @@
 export const revalidate = 60; // 1 minute'
 
 import type { Metadata } from "next";
-import { wisp } from "@/lib/wisp";
+// import { wisp } from "@/lib/wisp";
 import { BlogContent } from "@/components/BlogContent";
 import type { BlogPosting, WithContext } from "schema-dts";
 import { config } from "@/config";
 import { getOgImageUrl } from "@/lib/ogImage";
-
+import { post, relatedNews } from "@/app/mock/post";
 interface Params {
   slug: string;
 }
-export async function generateMetadata(
-  props: {
-    params: Promise<Params>;
-  }
-): Promise<Metadata> {
+export async function generateMetadata(props: {
+  params: Promise<Params>;
+}): Promise<Metadata> {
   const params = await props.params;
 
-  const {
-    slug
-  } = params;
+  // const { slug } = params;
 
-  const result = await wisp.getPost(slug);
-  if (!result.post) {
-    return {
-      title: "Page not found!",
-    };
-  }
+  // const result = await wisp.getPost(slug);
+  // if (!result.post) {
+  //   return {
+  //     title: "Page not found!",
+  //   };
+  // }
+
   return {
-    title: result.post.title,
-    description: result.post.description,
+    title: post.title,
+    description: post.description,
     openGraph: {
-      title: result.post.title,
-      description: result.post.description ?? "",
-      images: [result.post.image || getOgImageUrl(result.post.title)],
+      title: post.title,
+      description: post.description ?? "",
+      images: [post.image || getOgImageUrl(post.title)],
     },
   };
 }
 
-export default async function BlogPost(
-  props: {
-    params: Promise<Params>;
-  }
-) {
+export default async function BlogPost(props: { params: Promise<Params> }) {
   const params = await props.params;
 
-  const {
-    slug
-  } = params;
+  const { slug } = params;
 
-  const [result, related] = await Promise.all([
-    wisp.getPost(slug),
-    wisp.getRelatedPosts({ slug, limit: 4 }),
-  ]);
+  // const [result, related] = await Promise.all([
+  //   wisp.getPost(slug),
+  //   wisp.getRelatedPosts({ slug, limit: 4 }),
+  // ]);
 
-  if (!result.post) return null;
+  // console.log("**Related", related);
 
-  const { title, publishedAt, updatedAt, author, image } = result.post;
+  // console.log("*result", result);
+  // console.log("*related", related);
+
+  if (!post) return null;
+
+  const { title, publishedAt, updatedAt, author, image } = post;
 
   const jsonLd: WithContext<BlogPosting> = {
     "@context": "https://schema.org",
@@ -87,7 +83,7 @@ export default async function BlogPost(
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <BlogContent post={result.post} relatedPosts={related.posts} />
+      <BlogContent post={post} relatedPosts={relatedNews} />
     </>
   );
 }

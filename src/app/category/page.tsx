@@ -1,12 +1,13 @@
 export const dynamic = "force-dynamic";
 export const revalidate = 60;
 
-import { wisp } from "@/lib/wisp";
+// import { wisp } from "@/lib/wisp";
 import Link from "next/link";
 import { FullWidthHeader } from "../../components/FullWidthHeader";
 import { Metadata } from "next";
 import { config } from "@/config";
 import { getOgImageUrl } from "@/lib/ogImage";
+import { tags } from "@/app/mock/tags";
 
 export const metadata: Metadata = {
   title: `Blog post categories`,
@@ -19,20 +20,18 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-  const result = await wisp.getTags();
-
   return (
     <>
       <FullWidthHeader
-        title="Categories"
-        description="Browse blog posts by category"
+        title="Categorias"
+        description="Explore os posts do blog por categoria"
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Category", href: `/category/` },
         ]}
       />
       <div className="container mx-auto text-xl px-4 mb-10 max-w-6xl">
-        {result.tags.map((tag) => (
+        {tags.map((tag) => (
           <Link key={tag.id} href={`/category/${tag.name}`}>
             <div className="inline-block mr-4 mt-2">#{tag.name}</div>
           </Link>

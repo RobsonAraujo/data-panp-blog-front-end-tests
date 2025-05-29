@@ -3,14 +3,14 @@ export const revalidate = 60; // 1 minute
 import { BlogPostList } from "@/components/BlogPostList";
 import { PostPagination } from "@/components/PostPagination";
 import { getOgImageUrl } from "@/lib/ogImage";
-import { wisp } from "@/lib/wisp";
+// import { wisp } from "@/lib/wisp";
 import { Metadata } from "next";
 import { FilterBar } from "../components/FilterBar";
 import { FullWidthHeader } from "../components/FullWidthHeader";
 import { config } from "../config";
 import { posts } from "@/app/mock/blogPosts";
-import type { GetPostsResult } from "@wisp-cms/client";
-
+// import type { GetPostsResult } from "@wisp-cms/client";
+import { latest } from "../config";
 const { title, description } = config;
 
 export const metadata: Metadata = {
@@ -40,7 +40,7 @@ export default async function Page(props: {
     <>
       <FullWidthHeader title={title} description={description} />
       <div className="container mx-auto max-w-6xl">
-        <FilterBar active="latest" className="my-8" />
+        <FilterBar active={latest.tag} className="my-8" />
         <BlogPostList posts={result.posts} />
         <PostPagination
           pagination={result.pagination}

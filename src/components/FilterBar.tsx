@@ -4,11 +4,15 @@ import { Search, X } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import type { KeyboardEvent } from "react";
 import { useEffect, useRef, useState } from "react";
-import { config } from "../config";
+import { config, latest } from "../config";
 import { cn } from "../lib/utils";
 import Link from "next/link";
+import { late } from "zod";
 
-const categories = [{ label: "Latest", tag: "latest" }, ...config.categories];
+const categories = [
+  { label: latest.label, tag: latest.tag },
+  ...config.categories,
+];
 
 export interface BlogNavigationBarProps {
   className?: string;
@@ -80,7 +84,9 @@ export const FilterBar = ({ className, active }: BlogNavigationBarProps) => {
             {categories.map((category) => (
               <Link
                 href={
-                  category.tag === "latest" ? `/` : `/category/${category.tag}`
+                  category.tag === latest.tag
+                    ? `/`
+                    : `/category/${category.tag}`
                 }
                 key={category.tag}
               >

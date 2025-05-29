@@ -5,6 +5,11 @@ interface Category {
   description: string;
 }
 
+export const latest: Pick<Category, "label" | "tag"> = {
+  label: "Últimas notícias",
+  tag: "latest",
+};
+
 const categories: Category[] = [
   {
     label: "Engenharia de Dados",

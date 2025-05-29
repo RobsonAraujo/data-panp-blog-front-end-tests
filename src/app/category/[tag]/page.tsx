@@ -2,23 +2,19 @@ export const revalidate = 60; // 1 minute
 
 import { BlogPostList } from "@/components/BlogPostList";
 import { PostPagination } from "@/components/PostPagination";
-import { wisp } from "@/lib/wisp";
+// import { wisp } from "@/lib/wisp";
 import { FilterBar } from "../../../components/FilterBar";
 import { FullWidthHeader } from "../../../components/FullWidthHeader";
 import { config } from "../../../config";
 import { Metadata } from "next";
 import { getOgImageUrl } from "@/lib/ogImage";
-
-export async function generateMetadata(
-  props: {
-    params: Promise<{ tag: string }>;
-  }
-): Promise<Metadata> {
+import { posts } from "@/app/mock/blogPosts";
+export async function generateMetadata(props: {
+  params: Promise<{ tag: string }>;
+}): Promise<Metadata> {
   const params = await props.params;
 
-  const {
-    tag
-  } = params;
+  const { tag } = params;
 
   return {
     title: `Blog posts tagged with #${tag}`,
@@ -31,17 +27,13 @@ export async function generateMetadata(
   };
 }
 
-export default async function Page(
-  props: {
-    searchParams?: Promise<{ query: string; page: string }>;
-    params: Promise<{ tag: string }>;
-  }
-) {
+export default async function Page(props: {
+  searchParams?: Promise<{ query: string; page: string }>;
+  params: Promise<{ tag: string }>;
+}) {
   const params = await props.params;
 
-  const {
-    tag
-  } = params;
+  const { tag } = params;
 
   const searchParams = await props.searchParams;
   const category = config.categories.find((c) => c.tag === tag);
@@ -50,12 +42,13 @@ export default async function Page(
     description: `Blog posts tagged with #${tag}`,
   };
   const page = searchParams?.page ? parseInt(searchParams.page) : 1;
-  const result = await wisp.getPosts({
-    limit: 6,
-    tags: [tag],
-    query: searchParams?.query,
-    page,
-  });
+  const result = posts;
+  // const result = await wisp.getPosts({
+  //   limit: 6,
+  //   tags: [tag],
+  //   query: searchParams?.query,
+  //   page,
+  // });
 
   return (
     <>
