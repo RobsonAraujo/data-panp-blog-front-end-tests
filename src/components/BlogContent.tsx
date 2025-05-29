@@ -69,9 +69,9 @@ export const BlogContent = ({
             Publicado em {publishedAt ? formatFullDate(publishedAt) : "N/A"}
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="lg:w-3/4 prose prose-lg max-w-none w-full break-words blog-content">
-            <Accordion
+        <div className="flex justify-center mt-4">
+          <div className="lg:w-3/4 prose prose-lg max-w-none w-full break-words blog-content ">
+            {/* <Accordion
               type="single"
               collapsible
               className="w-full not-prose my-6 block lg:hidden"
@@ -82,7 +82,7 @@ export const BlogContent = ({
                   <TableOfContents items={tableOfContents} />
                 </AccordionContent>
               </AccordionItem>
-            </Accordion>
+            </Accordion> */}
             <ContentWithCustomComponents
               content={modifiedHtml}
               customComponents={{
