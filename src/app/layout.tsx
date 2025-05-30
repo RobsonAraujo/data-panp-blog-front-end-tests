@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer/Footer";
 import { Providers } from "./providers";
 import Header from "@/components/header/Header";
 
-const fontSans = IBM_Plex_Sans({
+const fontInter = Inter({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-inter",
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${fontSans.variable} antialiased font-sans`}>
+      <body className={`${fontInter.variable} antialiased font-sans`}>
         <Providers>
           <Header />
           {children}

@@ -46,10 +46,10 @@ export default function Header() {
           aria-hidden="true"
         />
         <Typography
-          variant="body1"
           fontWeight="700"
           textTransform="capitalize"
           color="white"
+          fontSize="14px"
         >
           Tenha acesso ilimitado
         </Typography>
